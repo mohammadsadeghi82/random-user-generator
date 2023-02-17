@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    background-color: #2c2e31;
+    position: relative;
+}
+.back-user {
+    width: 500px;
+    height: 350px;
+    transform: translate(75%,35%);
+    position: relative;
+    background-color: #eeeeee;
+    border-radius: 5px;
+}
+.back-user .top {
+    width: 100%;
+    height: 35%;
+    position: absolute;
+    top: 0;
+    border-bottom: 1px solid #2c2e31;
+    background-color: #cfcfcf;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.back-user .main {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    border-radius: 50%;
+    border: 1px solid #2c2e31;
+}
+.back-user .main img {
+    width: 190px;
+    height: 190px;
+    position: absolute;
+    border-radius: 50%;
+}
+.back-user .title {
+    width: 100%;
+    height: 15%;
+    top: 62%;
+    position: absolute;
+    text-align: center;
+}
+.back-user .title .pain-text {
+    margin-top: 7px;
+}
+.back-user .outher-info {
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    top: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.back-user .outher-info div {
+    width: 35%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    font-size: 13px;
+    text-align: center;
+    line-height: 20px;
+    border-right: 1px solid #2c2e31;
+}
+.back-user .outher-info div:nth-child(2) {
+    left: 35%;
+}
+.back-user .outher-info div:nth-child(3) {
+    width: 30%;
+    left: 70%;
+    border: none;
+}
+
+.info {
+    margin-top: 20px;
+}
